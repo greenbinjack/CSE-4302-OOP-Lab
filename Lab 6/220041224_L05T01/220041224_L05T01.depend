@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1729042857 source:d:\varsity\2nd year\oop lab\lab 6\220041224_l05t01\main.cpp
+	"Student.h"
+
+1729042930 d:\varsity\2nd year\oop lab\lab 6\220041224_l05t01\include\student.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+	<numeric>
+

@@ -4,14 +4,18 @@ using namespace std;
 class RationalNumber {
 private:
     int num, denom;
-public:
     void show_error_message () {
         cout << "You can not assign 0 as denominator" << endl;
     }
+public:
     void assign (int numerator, int denominator) {
         if (denominator == 0) {
             show_error_message ();
             return;
+        }
+        if (denominator < 0) {
+            numerator = -numerator;
+            denominator = -denominator;
         }
         num = numerator;
         denom = denominator;

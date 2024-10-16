@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1728448225 source:d:\varsity\2nd year\oop lab\lab 6\220041224_l06t02\main.cpp
+	"Coordinate.h"
+	<iostream>
+	<ctime>
+	<algorithm>
+
+1728448163 d:\varsity\2nd year\oop lab\lab 6\220041224_l06t02\include\coordinate.h
+	<iostream>
+
+1728448290 source:d:\varsity\2nd year\oop lab\lab 6\220041224_l06t02\src\coordinate.cpp
+	"Coordinate.h"
+	<iostream>
+	<cmath>
+

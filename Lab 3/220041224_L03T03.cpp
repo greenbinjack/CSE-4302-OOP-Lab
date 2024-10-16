@@ -19,6 +19,10 @@ public:
         unit_price = price;
     }
     void setDiscountPercent (double percent) {
+        if (percent < 0 || percent > 30) {
+            cout << "Invalid discount percentage. Defaulting to 5%." << endl;
+            return;
+        }
         discountPercent = percent;
     }
     double getDiscountPercent () {
@@ -31,8 +35,10 @@ public:
         return getUnitPrice () * (100.0 - getDiscountPercent ()) / 100 * nos;
     }
     void display () {
-        cout << fixed << setprecision (2) << "MRP. of " << trade_name << " (" << generic_name << ") is BDT " << getUnitPrice ()
-             << ". Current discount " << getDiscountPercent () << "%. Selling price BDT " << getSellingPrice () << "." << endl;
+        cout << fixed << setprecision(2);
+        cout << "MRP. of " << trade_name << " (" << generic_name << ") is BDT "
+             << unit_price << ". Current discount " << discountPercent
+             << "%. Selling price BDT " << getSellingPrice() << "." << endl;
     }
 };
 

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1728444288 source:d:\varsity\2nd year\oop lab\lab 6\220041224_l06t01\main.cpp
+	"Matrix3D.h"
+	<iostream>
+	<vector>
+
+1728444304 d:\varsity\2nd year\oop lab\lab 6\220041224_l06t01\include\matrix3d.h
+	<iostream>
+	<vector>
+
+1728444296 source:d:\varsity\2nd year\oop lab\lab 6\220041224_l06t01\src\matrix3d.cpp
+	"Matrix3D.h"
+	<iostream>
+	<vector>
+
